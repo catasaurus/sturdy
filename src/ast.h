@@ -1,10 +1,12 @@
+#include "token.h"
+
 #ifndef AST_H
 #define AST_H
 
-class ast {
+class AstNode {
     public:
-        void add_item();
-
+        char type[20];
+        Token body[]
 };
 
 #endif AST_H
